@@ -1,0 +1,10 @@
+version: 3
+
+paths:
+  only:
+    - go.mod
+    - go.sum
+    - cmd
+    - internal
+  exclude:
+    - internal/buildscripts
